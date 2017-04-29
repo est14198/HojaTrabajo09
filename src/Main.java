@@ -15,7 +15,7 @@ public class Main {
 		FactoryTrees<Asociacion<String, String>> factory = new FactoryTrees<>();
 		iArboles<Asociacion<String, String>> b;
 		
-		System.out.println("Seleccione que implementacion desea para el Arbol:\n1. 2-3 Tree\n2. Red Black Tree");
+		System.out.println("Seleccione que implementacion desea para el Arbol:\n1. Red Black Tree\n2. 2-3 Tree");
     	int seleccion2 = 0;
     	boolean loop2=true; 
     	while(loop2){
@@ -39,7 +39,7 @@ public class Main {
 			b = factory.getArbol(1);
 			break;
 		default:
-			b = factory.getArbol(1);
+			b = factory.getArbol(0);
 			break;
     	}
 		

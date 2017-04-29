@@ -1,5 +1,13 @@
 //fuente: https://github.com/Arsenalist/Red-Black-Tree-Java-Implementation
 
+/**
+ * Universidad del Valle de Guatemala
+ * Asociacion.java
+ * Algoritmos y Estructura de Datos - Seccion 10
+ * Maria Fernanda Estrada y Christopher Sandoval
+ * @since 28 abril 2017
+ */
+
 public class RedBlackNode<T extends Comparable<T>> {
 
     /** Possible color for this node */
